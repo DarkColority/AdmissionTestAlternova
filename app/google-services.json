@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "984531588138",
+    "project_id": "admissiontest-a28de",
+    "storage_bucket": "admissiontest-a28de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984531588138:android:2cbe3e8e8da6a0aa561f53",
+        "android_client_info": {
+          "package_name": "com.example.admissiontest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984531588138-gcm5illmusj29gb9boj3e047ljjae9o8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2_ENi78IOVICnFLBMa22erlotJ5Dsymc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "984531588138-gcm5illmusj29gb9boj3e047ljjae9o8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

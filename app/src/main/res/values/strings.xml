@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">AdmissionTest</string>
+    <string name="product_stock_format">#%d</string>
+    <string name="product_price_format">%s $.00</string>
+    <string name="unknown_host_exception_error">Failed connecting to internet.</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="register">Register</string>
+    <string name="do_not_have_an_account">Do not have an account?</string>
+    <string name="email_not_valid">Email is not valid</string>
+    <string name="password_not_valid">Password is not valid</string>
+    <string name="passwords_not_match">Passwords don\'t match</string>
+    <string name="password_not_empty">Password must not be empty</string>
+    <string name="error_sign_up">Error signing up</string>
+    <string name="error_sign_in">Error signing in</string>
+    <string name="user_already_exists">User already exists</string>
+    <string name="there_was_an_error">There was an error</string>
+    <string name="shopping_cart_title">Shopping Cart</string>
+    <string name="empty_shopping_cart">Empty shopping cart</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="buy">Buy</string>
+</resources>
