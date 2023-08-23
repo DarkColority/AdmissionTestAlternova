@@ -10,6 +10,7 @@ import retrofit2.converter.moshi.MoshiConverterFactory
 import retrofit2.http.Body
 import retrofit2.http.GET
 import retrofit2.http.POST
+import retrofit2.http.Query
 
 private val retrofit = Retrofit.Builder()
     .baseUrl(BASE_URL)
@@ -21,10 +22,8 @@ interface ApiService{
     suspend fun getAllProducts(): ProductListApiResponse
 
     @GET(GET_PRODUCT_DETAIL)
-    suspend fun getProductDetail(idProduct: Int): ProductDetailResponse
+    suspend fun getProductDetail(@Query("id")idProduct: Int): ProductDetailResponse
 
-    //@POST(SIGN_UP_URL)
-    //suspend fun signUp(@Body signUpDTO: SignUpDTO): SignUpApiResponse
 }
 
 object ProductsApi{

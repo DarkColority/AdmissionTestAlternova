@@ -38,12 +38,6 @@ class ProductDetailActivity : AppCompatActivity() {
         }else{
             loadingWheel.visibility = View.GONE
         }
-        val productDetail = productDetailViewModel.downloadProductDetail(product.id)
-
-        if (productDetail==null){
-            Toast.makeText(this, "Null", Toast.LENGTH_SHORT).show()
-            Log.i(TAG, "onCreate: $productDetail")
-        }
         var productCount = 0
         binding.productUnitPriceText.text = getString(R.string.product_price_format)
         binding.productStockText.text = getString(R.string.product_stock_format)
